@@ -1,0 +1,731 @@
+<html lang="es">
+  <head>
+    <!-- PLANTILLA LIBRE DE USO -->
+    <!-- JOE MARTINEZ -->
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- TITULO  -->
+
+    <title> Galipan </title>
+
+    <!-- FAVICON  -->
+
+    <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon" />
+
+    <!--  Remix icons -->
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- ESTILOS CSS -->
+
+    <link rel="stylesheet" href="./estilos/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./estilos/estilos.css" />
+    <link rel="stylesheet" href="./estilos/normalize.css" />
+
+
+  </head>
+   
+  <body>
+
+    <!-- Header -->
+
+    <header class="header" id="header">
+      <nav class="nav container">
+
+        <a href="#" class="nav__logo">
+          Galipan <i class="ri-home-smile-2-line"></i>
+        </a>
+
+        <div class="nav__menu">
+
+          <ul class="nav__list">
+
+            <li class="nav__item">
+
+              <a href="#home" class="nav__link">
+                <i class="ri-community-line"></i>
+                <span> Inicio </span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#popular" class="nav__link">
+                <i class="ri-flashlight-line"></i>
+                <span> Residencias </span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#value" class="nav__link">
+                <i class="ri-star-line"></i>
+                <span> Servicios </span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="ri-smartphone-line"></i>
+                <span> Contacto </span>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+
+        <!-- Boton para cambiar de tema  -->
+
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <a href="#" class="button nav__button">
+          Suscríbete 
+        </a>
+
+      </nav>
+
+    </header>
+
+    <main class="main">
+
+      <!-- Home (Inicio) -->
+
+      <section class="home section" id="home">
+
+        <div class="home__container container grid">
+
+          <div class="home__data">
+            <h1 class="home__title">
+              Descubre Tu <br>
+              Nuevo Dulce <br>
+              Hogar
+            </h1>
+
+            <p class="home__description">
+              Explora y encuentra con nosotros ese hogar soñado. La calidad de una vivienda está en quienes las habitan. 
+            </p>
+
+            <form action="" class="home__search">
+              <i class="ri-pin-distance-line"></i>
+              <input type="search" placeholder="Encuentra tu hogar soñado..." class="home__search-input">
+              <button class="button"> Buscar </button>
+            </form>
+
+            <div class="home__value">
+              <div>
+                <h1 class="home__value-number">
+                  5mil <span>+</span>
+                </h1>
+                <span class="home__value-description">
+                  Hogares <br> Nuevos
+                </span>
+              </div>
+
+              <div>
+                <h1 class="home__value-number">
+                  4mil <span>+</span>
+                </h1>
+                <span class="home__value-description">
+                  Familias <br> Felices
+                </span>
+              </div>
+
+              <div>
+                <h1 class="home__value-number">
+                  500 <span>+</span>
+                </h1>
+                <span class="home__value-description">
+                  Premios y <br> Distinciones 
+                </span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="home__images">
+
+            <div class="home__orbe"></div>
+
+            <div class="home__img">
+              <img src="./imgs/home.jpg" alt="imagen vivienda">
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- Logo -->
+
+      <section class="logos section">
+
+        <div class="logos__container container grid">
+
+          <div class="logos__img">
+            <img src="./imgs/logo1.png" alt="logo imagen">
+          </div>
+
+          <div class="logos__img">
+            <img src="./imgs/logo2.png" alt="logo imagen">
+          </div>
+
+
+          <div class="logos__img">
+            <img src="./imgs/logo3.png" alt="logo imagen">
+          </div>
+
+
+          <div class="logos__img">
+            <img src="./imgs/logo4.png" alt="logo imagen">
+          </div>
+
+
+        </div>
+
+      </section>
+
+      <!-- Popular  -->
+
+      <section class="popular section" id="popular">
+        <div class="container">
+          <span class="section__subtitle"> Los Hogares Más Encantadores </span>
+          <h2 class="section__title">
+            Las Residencias Más Vistas
+          </h2>
+
+          <div class="popular_container swiper">
+
+            <div class="swiper-wrapper">
+
+              <article class="popular__card swiper-slide">
+                <img src="./imgs/popular1.jpg" alt="residencia" class="popular__img">
+
+                <div class="popular__data">
+                  <h2 class="popular__price">
+                    <span>$</span> 799,990
+                  </h2>
+                  <h3 class="popular__title">
+                    Quinta Rosana 
+                  </h3>
+                  <p class="popular__description">
+                    Calle Madrid, Las Mercedes. Caracas - Venezuela
+                  </p>
+                </div>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <img src="./imgs/popular2.jpg" alt="residencia" class="popular__img">
+
+                <div class="popular__data">
+                  <h2 class="popular__price">
+                    <span>$</span> 499,990
+                  </h2>
+                  <h3 class="popular__title">
+                    Residencia Las Flores
+                  </h3>
+                  <p class="popular__description">
+                    Altamira. Caracas - Venezuela
+                  </p>
+                </div>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <img src="./imgs/popular3.jpg" alt="residencia" class="popular__img">
+
+                <div class="popular__data">
+                  <h2 class="popular__price">
+                    <span>$</span> 99,990
+                  </h2>
+                  <h3 class="popular__title">
+                    Quinta Jesuelys
+                  </h3>
+                  <p class="popular__description">
+                    Calle 2, Montalban. Caracas - Venezuela
+                  </p>
+                </div>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <img src="./imgs/popular4.jpg" alt="residencia" class="popular__img">
+
+                <div class="popular__data">
+                  <h2 class="popular__price">
+                    <span>$</span> 199,990
+                  </h2>
+                  <h3 class="popular__title">
+                    Residencia Guacamaya 
+                  </h3>
+                  <p class="popular__description">
+                    Av. La Salle, Los Chaguaramos. Caracas - Venezuela
+                  </p>
+                </div>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <img src="./imgs/popular5.jpg" alt="residencia" class="popular__img">
+
+                <div class="popular__data">
+                  <h2 class="popular__price">
+                    <span>$</span> 299,990
+                  </h2>
+                  <h3 class="popular__title">
+                    Quinta Metropolitana
+                  </h3>
+                  <p class="popular__description">
+                    Av. Principal, El Hatillo. Caracas - Venezuela
+                  </p>
+                </div>
+              </article>
+
+            </div>
+
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-line"></i>
+            </div>
+
+           <div class="swiper-button-prev">
+            <i class="ri-arrow-left-line"></i>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Value (Servicios) -->
+
+      <section class="value section" id="value">
+
+        <div class="value__container container grid">
+
+          <div class="value__images">
+            
+            <div class="value__orbe"></div>
+
+            <div class="value__img">
+              <img src="./imgs/value.jpg" alt="residencia">
+            </div>
+
+          </div>
+
+          <div class="value__content">
+
+            <div class="value__data">
+
+              <span class="section__subtitle"> Nuestros Servicios </span>
+
+              <h2 class="section__title">
+                Lo Que Te Ofrecemos <span>.</span>
+              </h2>
+
+              <p class="value__description">
+                Estamos dispuestas a dar lo mejor de nosotros para trabajar en conjunto con nuestros clientes para alcanzar
+                esos dulces sueños por un dulce hogar en la familia.
+              </p>
+
+            </div>
+
+            <div class="value__accordion">
+
+              <!-- 1 -->
+
+              <div class="value__accordion-item">
+
+                <header class="value__accordion-header">
+                  <i class="ri-briefcase-line value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">
+                    Los Mejores Intereses en el Mercado
+                  </h3>
+                  
+                  <div class="value__accordion-arrow">
+                    <i class="ri-arrow-down-circle-line"></i>
+                  </div>
+                </header>
+
+                <div class="value__accordion-content">
+                  <p class="value__accordion-description">
+                    Siempre estamos garantizando los mejores servicios al mejor precio. Puedes quedar tranquilo con todas las garantías que 
+                    tenemos para ofrecerte.
+                  </p>
+                </div>
+              </div>
+
+              <!-- 2 -->
+
+              <div class="value__accordion-item">
+                <header class="value__accordion-header">
+                  <i class="ri-secure-payment-line value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">
+                    Garantías por 10 Años
+                  </h3>
+                  
+                  <div class="value__accordion-arrow">
+                    <i class="ri-arrow-down-circle-line"></i>
+                  </div>
+                </header>
+
+                <div class="value__accordion-content">
+                  <p class="value__accordion-description">
+                    Siempre estamos garantizando los mejores servicios al mejor precio. Puedes quedar tranquilo con todas las garantías que 
+                    tenemos para ofrecerte.
+                  </p>
+                </div>
+              </div>
+
+               <!-- 3 -->
+
+              <div class="value__accordion-item">
+                <header class="value__accordion-header">
+                  <i class="ri-line-chart-line value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">
+                    Los Hogares Menos Devaluados 
+                  </h3>
+                  
+                  <div class="value__accordion-arrow">
+                    <i class="ri-arrow-down-circle-line"></i>
+                  </div>
+                </header>
+
+                <div class="value__accordion-content">
+                  <p class="value__accordion-description">
+                    Siempre estamos garantizando los mejores servicios al mejor precio. Puedes quedar tranquilo con todas las garantías que 
+                    tenemos para ofrecerte.
+                  </p>
+                </div>
+              </div>
+
+               <!-- 4 -->
+
+              <div class="value__accordion-item">
+                <header class="value__accordion-header ">
+                  <i class="ri-phone-line value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">
+                    Atención las 24hs
+                  </h3>
+                  
+                  <div class="value__accordion-arrow">
+                    <i class="ri-arrow-down-circle-line"></i>
+                  </div>
+                </header>
+
+                <div class="value__accordion-content">
+                  <p class="value__accordion-description">
+                    Siempre estamos garantizando los mejores servicios al mejor precio. Puedes quedar tranquilo con todas las garantías que 
+                    tenemos para ofrecerte.
+                  </p>
+                </div>
+              </div>
+
+               <!-- 5 -->
+
+              <div class="value__accordion-item">
+                <header class="value__accordion-header">
+                  <i class="ri-service-line value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">
+                    Fácil Adquisición 
+                  </h3>
+                  
+                  <div class="value__accordion-arrow">
+                    <i class="ri-arrow-down-circle-line"></i>
+                  </div>
+                </header>
+
+                <div class="value__accordion-content">
+                  <p class="value__accordion-description">
+                    Siempre estamos garantizando los mejores servicios al mejor precio. Puedes quedar tranquilo con todas las garantías que 
+                    tenemos para ofrecerte.
+                  </p>
+                </div>
+              </div>
+
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- Contact (Contacto) -->
+
+      <section class="contact section" id="contact">
+
+        <div class="contact__container container grid">
+
+          <div class="contact__images">
+
+            <div class="contact__orbe"> </div>
+
+            <div class="contact__img">
+              <img src="./imgs/contact.png" alt="imagen residencias">
+            </div>
+
+          </div>
+
+          <div class="contact__content">
+
+            <div class="contact__data">
+              <span class="section__subtitle">
+                Contáctanos
+              </span>
+              <h2 class="section__title">
+                Estamos para ti a todas horas <span>.</span>
+              </h2>
+              <p class="contact__description">
+                Si tienes alguna duda o algún problema, no dudes en llamarnos, siempre estamos atentos a nuestros clientes.
+              </p>
+            </div>
+
+            <div class="contact__card">
+              <div class="contact__card-box">
+
+                <div class="contact__card-info">
+                  <i class="ri-smartphone-line"></i>
+                  <div>
+                    <h3 class="contact__card-title">
+                      Llamar
+                    </h3>
+                    <p class="contact__card-description">
+                      (+58) 424 1796708
+                    </p>
+                  </div>
+
+                </div>
+
+                <button class="button contact__card-button">
+                  Llamar
+                </button>
+
+              </div>
+
+              <div class="contact__card-box">
+
+                <div class="contact__card-info">
+                  <i class="ri-message-3-line"></i>
+                  <div>
+                    <h3 class="contact__card-title">
+                      Chat
+                    </h3>
+                    <p class="contact__card-description">
+                      (+58) 424 1796708
+                    </p>
+                  </div>
+                </div>
+
+                <button class="button contact__card-button">
+                  Chatear
+                </button>
+
+              </div>
+
+              <div class="contact__card-box">
+
+                <div class="contact__card-info">
+                  <i class="ri-vidicon-line"></i>
+                  <div>
+                    <h3 class="contact__card-title">
+                      Videollamada
+                    </h3>
+                    <p class="contact__card-description">
+                      (+58) 424 1796708
+                    </p>
+                  </div>
+
+                </div>
+
+                <button class="button contact__card-button">
+                  Videollamar 
+                </button>
+
+              </div>
+
+              <div class="contact__card-box">
+
+                <div class="contact__card-info">
+                  <i class="ri-mail-line"></i>
+                  <div> 
+                    <h3 class="contact__card-title">
+                      Correo
+                    </h3>
+                    <p class="contact__card-description">
+                      (+58) 424 1796708
+                    </p>
+                  </div>
+
+                </div>
+
+                <button class="button contact__card-button">
+                  Enviar 
+                </button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Subscribe (Suscribir) -->
+
+      <section class="subscribe section">
+
+        <div class="subscribe__container container">
+          <h1 class="subscribe__title">
+            Vamos a empezar con Galipan❤
+          </h1>
+
+          <p class="subscribe__description">
+            Suscríbete a todas nuestras ofertas y encontrarás 
+            tu hogar soñado.
+          </p>
+
+          <a href="#" class="button subscribe__button">
+            Empezar
+            <i class="ri-home-heart-line"></i>
+          </a>
+
+        </div>
+
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer section">
+
+      <div class="footer__container container grid">
+
+        <div class="footer__logos">
+          <a href="#" class="footer__logo">
+            Galipan <i class="ri-home-smile-2-line"></i>
+          </a>
+
+          <p class="footer__description">
+            Nuestra misión es lograr que <br>
+            las familias logren alcanzar el <br>
+            más dulce hogar
+          </p>
+        </div>
+
+        <div class="footer__content">
+          <div>
+            <h3 class="footer__title">
+              Nosotros
+            </h3>
+
+            <ul class="footer__links">
+
+              <li>
+                <a href="#" class="footer__link"> Nuestra Visión </a>
+              </li>
+              <li>
+                <a href="#" class="footer__link"> Destacado </a>
+              </li>
+              <li>
+                <a href="#" class="footer__link"> Blog </a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">
+              Compañía
+            </h3>
+
+            <ul class="footer__links">
+
+              <li>
+                <a href="#" class="footer__link">¿Cómo trabajamos?</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Seguridad</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Historia</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">
+              Soporte
+            </h3>
+
+            <ul class="footer__links">
+
+              <li>
+                <a href="#" class="footer__link"> Preguntas Frecuentes </a>
+              </li>
+              <li>
+                <a href="#" class="footer__link"> Atención al Cliente </a>
+              </li>
+              <li>
+                <a href="#" class="footer__link"> Contacto </a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">
+              Siguenos
+            </h3>
+
+            <ul class="footer__social">
+              
+              <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                <i class="ri-instagram-fill"></i>
+              </a>
+              <a href="https://www.pinterest.com/"  target="_blank" class="footer__social-link">
+                <i class="ri-pinterest-fill"></i> 
+              </a>
+
+
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer__info container">
+        <span class="footer__copy">
+          &#169; Dynamic Club. Todos los derechos reservados. 2023
+        </span>
+
+        <div class="footer__privacy">
+          <a href="#"> Términos y Condiciones </a>
+          <a href="#"> Políticas de Privacidad </a>
+        </div>
+      </div>
+    </footer>
+
+    
+    <!-- Scroll UP  -->
+
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!-- Scroll Reveal  -->
+
+    <script src="./javascript/scrollreveal.min.js"></script>
+
+    <!-- Swiper JS -->
+
+    <script src="./javascript/swiper-bundle.min.js"></script>
+    
+    <!--Main JS -->
+
+    <script src="./javascript/main.js"></script>
+
+  </body>
+</html>
